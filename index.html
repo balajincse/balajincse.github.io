@@ -1,58 +1,14 @@
-<!DOCTYPE HTML>
+---
+layout: archive
+author_profile: true
+---
 
-<html>
-	<head>
-		<title>Balaji N</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+{% include base_path %}
 
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="images/balaji.jpg" alt="" /></span>
-						<h1>Balaji N</h1>
-						<p>Project Trainee &nbsp;&bull;&nbsp; Internship at &nbsp;&bull;&nbsp; IBM Innovation Center</p>
-						<nav>
-							<ul>
-								<li><a href="next.html#me"       class="icon  fa-user active"><span class="label">About Me   </span></a></li>
-								<li><a href="next.html#work"     class="icon fa-folder">      <span class="label">Work       </span></a></li>
-								<li><a href="web/viewer.html"    class="icon fa-paper-plane"> <span class="label">CV         </span></a></li>
-								<li><a href="next.html#projects" class="icon fa-th">          <span class="label">Projects   </span></a></li>
-								<li><a href="next.html#honors"   class="icon fa-diamond">     <span class="label">Honors     </span></a></li>
-								<li><a href="next.html#contact"  class="icon fa-envelope-o">   <span class="label">Contact Me</span></a></li>
-								
-							</ul>
-						</nav>
-					</header>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<nav id="nav">
-								<a href="https://twitter.com/Balaji_BI" class="icon fa-twitter"><span class="label">Twitter</span></a>
-								<a href="https://in.linkedin.com/in/nbalajibi" class="icon fa-linkedin"><span class="label">LinkedIn</span></a>
-								<a href="https://www.facebook.com/csebbi" class="icon fa-facebook"><span class="label">Facebook</span></a>
-								<a href="https://github.com/balajincse" class="icon fa-github"><span class="label">Github</span></a>
-								<a href="#" class="icon fa-google-plus"><span class="label">Google Plus</span></a><br>
-						<span class="copyright">&copy; Untitled. Design: HTML5 UP.</span>
-						</nav>
-					</footer>
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
 
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
-</html>
+{% include paginator.html %}
