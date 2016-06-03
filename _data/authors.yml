@@ -1,11 +1,18 @@
 # Authors
 
-Balaji N:
-  name        : "Balaji N"
-  uri         : "http://balajincse.github.io"
-  email       : "balajincse@outlook.com"
-  bio         : "what i cannot build i do not understand"
-  avatar      : "bio-photo.jpg"
-  twitter     : ""
-  google_plus : ""
+Billy Rick:
+  name        : "Billy Rick"
+  uri         : "http://thewhip.com"
+  email       : "billy@rick.com"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "bio-photo-2.jpg"
+  twitter     : "extravagantman"
+  google_plus : "BillyRick"
 
+Cornelius Fiddlebone:
+  name        : "Cornelius Fiddlebone"
+  email       : "cornelius@thewhip.com"
+  bio         : "I ordered what?"
+  avatar      : "bio-photo.jpg"
+  twitter     : "rhymeswithsackit"
+  google_plus : "CorneliusFiddlebone"
