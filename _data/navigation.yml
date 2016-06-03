@@ -7,10 +7,10 @@ main:
     url: /work/
 
   - title: "Random Stuff"
-    url: /posts/
+    url: /year-archive/
 
   - title: "Awards"
-    url: /awards/
+    url: /collection-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /year-archive/
