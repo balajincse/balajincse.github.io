@@ -3,7 +3,7 @@ title: "Foo Bar Identity"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
   image: Lotus-Flower-pink.jpg
-  teaser: foo-bar-identity-th.jpg
+  teaser: Lotus-Flower-pink.jpg
 sidebar:
   - title: "Role"
     image: bio-photo.jpg
