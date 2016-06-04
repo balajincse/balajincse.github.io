@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 header:
-  image: Lotus-Flower.jpg
+  image: background.jpg
   caption: "Photo credit: [**Balaji N**](http://balajincse.github.io//about/)"
 ---
 
