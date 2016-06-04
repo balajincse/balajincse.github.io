@@ -7,9 +7,9 @@ header:
   overlay_color: "#000"
   overlay_image: Lotus-Flower-Photos.jpg
   caption: "Photo credit: [**Balaji N**](http://balajincse.github.io//about/)"
-excerpt: "Listing the project I work with for company, competitiom, Acadmic, and online course."
+excerpt: "Showcase my project I am doing for companies, competition, Academic and Online Courses. Explorer the project get to know about the technology used in the project and duration of the project."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. '
 feature_row:
   - image_path: background.jpg
     alt: "placeholder image 1"
