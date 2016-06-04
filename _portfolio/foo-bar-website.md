@@ -1,6 +1,6 @@
 ---
 title: "IBM Internship"
-excerpt: ""
+excerpt: "Project Trainee Internship"
 header:
   image: Lotus-Flower-pink.jpg
   teaser: IBM.png
