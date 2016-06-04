@@ -1,16 +1,16 @@
 ---
-title: "Foo Bar Identity"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+title: "IBM Internship"
+excerpt: ""
 header:
   image: Lotus-Flower-pink.jpg
-  teaser: Lotus-Flower-pink.jpg
+  teaser: IBM.png
 sidebar:
   - title: "Role"
     image: bio-photo.jpg
     image_alt: "logo"
     text: "Projct Trainee"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Reduced time for customers and focus on development by showing them valid assets presentation and kick-start their development."
 gallery:
   - url: Lotus-Flower-Sunset.jpg
     image_path: Lotus-Flower-Sunset.jpg
@@ -23,7 +23,7 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-IBM India
+IBM India Pvt Ltd..
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
 
