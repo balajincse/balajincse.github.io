@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 header:
-  teaser: WP_20150501_004.jpg
+  image:background.jpg
 ---
 
 {% include base_path %}
