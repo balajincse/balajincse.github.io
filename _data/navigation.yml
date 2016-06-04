@@ -4,7 +4,7 @@ main:
     url: /about/
 
   - title: "Work Experience"
-    url: /portfolio-archive/
+    url: /portfolio/
 
   - title: "Random Stuff"
     url: /year-archive/
