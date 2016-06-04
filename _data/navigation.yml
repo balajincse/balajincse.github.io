@@ -4,13 +4,13 @@ main:
     url: /about/
 
   - title: "Work Experience"
-    url: /work/
+    url: /splash-page/
 
   - title: "Random Stuff"
     url: /year-archive/
 
   - title: "Awards"
-    url: /collection-archive/
+    url: /portfolio-archive/
     
   - title: "CV"
     url: /year-archive/
