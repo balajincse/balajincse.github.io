@@ -1,8 +1,8 @@
 ---
 permalink: /about/
 title: "About"
-overlay_color: "#000"
-  overlay_image: Lotus-Flower-Photos.jpg
+header:
+  image: Pink-lotus-flowers-at-sunset_1600x900.jpg
   caption: "Photo credit: [**Balaji N**](http://balajincse.github.io//about/)"
 ---
 
