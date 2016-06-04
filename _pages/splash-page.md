@@ -5,7 +5,7 @@ permalink: /splash-page/
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_image: background.jpg
+  overlay_image: Lotus-Flower-Photos.jpg
   cta_label: "Download"
   cta_url: "https://github.com/balajincse/"
   caption: "Photo credit: [**Balaji N**](http://balajincse.github.io//about/)"
