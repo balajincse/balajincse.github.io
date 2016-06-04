@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 header:
   teaser:
-  title: "Learner"
+title: "Learner"
 ---
 
 {% include base_path %}
