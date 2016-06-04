@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: 
 layouts_gallery:
   - url: mm-layout-splash.png
     image_path: mm-layout-splash.png
@@ -16,4 +16,4 @@ layouts_gallery:
 
 {% include base_path %}
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+I'm Balaji N, a 21 century downtown from the picturesque town of Cheyyar. A Learner, Programmer, Gamer, Contest Participator and most importanly I'm a good Human being and I love Nature. 
