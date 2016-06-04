@@ -11,14 +11,14 @@ title                    : "Thoughts"
 title_separator          : "-"
 name                     : "Balaji N"
 description              : "My personal website to showcase my work"
-url                      : "http://balajincse.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "http://balajincse.github.io/"# the base hostname & protocol for your site e.g. 
+baseurl                  : # the subpath of your site, 
 gh_repo                  :
-teaser                   : "background.png"# filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "background.png" # filename of teaser fallback teaser image placed in /images/, 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : # false (default), 
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
