@@ -2,7 +2,8 @@
 permalink: /about/
 title: "About"
 header:
-  image:background.jpg
+  image: Lotus-Flower.jpg
+  caption: "Photo credit: [**Balaji N**](http://balajincse.github.io//about/)"
 ---
 
 {% include base_path %}
