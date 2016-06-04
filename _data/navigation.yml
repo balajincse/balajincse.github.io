@@ -4,7 +4,7 @@ main:
     url: /about/
 
   - title: "Work Experience"
-    url: /portfolio/
+    url: /work/
 
   - title: "Random Stuff"
     url: /random-stuff/
@@ -13,4 +13,4 @@ main:
     url: /awards/
     
   - title: "CV"
-    url: /categories/
+    url: /cv/
