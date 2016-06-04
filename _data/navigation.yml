@@ -7,7 +7,7 @@ main:
     url: /portfolio/
 
   - title: "Random Stuff"
-    url: /year-archive/
+    url: /random-stuff/
 
   - title: "Awards"
     url: /awards/
