@@ -18,7 +18,7 @@ layouts_gallery:
 
 I'm Balaji N, a 21 century downtown from the picturesque town of Cheyyar. A Learner, Programmer, Gamer, Contest Participator and most importanly I'm a good Human being and I love Nature. 
 
-<h2>Learner</h2>
+##Learner
 
 <h2>Programmer</h2>
 
