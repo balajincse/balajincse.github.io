@@ -10,7 +10,7 @@ main:
     url: /random-stuff/
 
   - title: "Awards"
-    url: /awards/
+    url: awards
     
   - title: "CV"
     url: /cv/
