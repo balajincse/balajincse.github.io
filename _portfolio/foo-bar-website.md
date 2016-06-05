@@ -15,39 +15,19 @@ gallery:
   - url: WP-20151203-16-05-44-Pro.jpg
     image_path: WP-20151203-16-05-44-Pro.jpg
     alt: "placeholder image 1"
-  - url: WP-20151007-09-19-29-Selfie.jpg
-    image_path: WP-20151007-09-19-29-Selfie.jpg
-    alt: "placeholder image 2"
-  - url: WP-20151007-09-20-05-Selfie.jpg
-    image_path: WP-20151007-09-20-05-Selfie.jpg
-    alt: "placeholder image 3"
-  - url: WP-20151120-14-06-03-Pro.jpg
-    image_path: WP-20151120-14-06-03-Pro.jpg
-    alt: "placeholder image 4"
-  - url: WP-20151120-17-47-28-Pro.jpg
-    image_path: WP-20151120-17-47-28-Pro.jpg
-    alt: "placeholder image 5"
   - url: WP-20151203-16-07-48-Pro.jpg
     image_path: WP-20151203-16-07-48-Pro.jpg
-    alt: "placeholder image 6"
+    alt: "placeholder image 2"
   - url: WP-20151203-16-07-08-Pro.jpg
     image_path: WP-20151203-16-07-08-Pro.jpg
-    alt: "placeholder image 7"
-  - url: WP-20151203-16-10-16-Pro.jpg
-    image_path: WP-20151203-16-10-16-Pro.jpg
-    alt: "placeholder image 8"
-  - url: WP-20151203-16-10-20-Pro.jpg
-    image_path: WP-20151203-16-10-20-Pro.jpg
-    alt: "placeholder image 9"
-  - url: WP-20151203-16-14-08-Pro.jpg
-    image_path: WP-20151203-16-14-08-Pro.jpg
-    alt: "placeholder image 10"
+    alt: "placeholder image 3"
 ---
 
-###IBM India Pvt Ltd..
+IBM India Pvt Ltd..
 {% include gallery caption="This is a gallery to go along with work life at IBM." %}
-### Project Trainee Internship
 
+
+### Project Trainee Internship
 This letter certifies that you have completed your internship with IBM India Private Limited. This also confirms your employment in an intern capacity from 01-Oct-2015 to 30-Mar-2016 under the guidance of Nilkanth Iyer Country Lead Cloud Ecosystem.
 
 ### Project Title:- 
