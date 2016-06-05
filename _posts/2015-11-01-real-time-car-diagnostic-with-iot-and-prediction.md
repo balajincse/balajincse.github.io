@@ -27,10 +27,6 @@ This project involved to capturing the real time data of a vehicle through On Bo
     9. Once the Node RED configuration is done, then the model is deployed. The data captured by pi will stored in IBM Bluemix Cloudant without your hands get dirty.
     10. The web application is used to display all the information about the vehicle to customer and also the industry will get statistical information about the machine behaviors.
 
-```python
-
-```
-
 ### Environment 
 IBM Bluemix, OBD, Internet of Things foundation (IoT), ARM Cortex-A7, Raspberry Pi , IoT Device Configuration, Node RED, Cloudant.
 
