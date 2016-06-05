@@ -15,16 +15,12 @@ tags:
 This project involved to capturing the real time data of a vehicle through On Board Diagnostic device with Raspberry Pi. Gathering and cleaning the data for using predictions like when the vehicle needs to service, when the vehicle parts to be changed, vehicle recall as well as the manufacturing industry to this real time data to design or modify the vehicle part in future vehicles. This project helps customer known their vehicle and the industry will get know about the performance of their machine, which also helps the industry to predict the market of their machines.    
 
 ### Responsibilities 
-    1. Configuring the Onboard Diagnostic device and   raspberry pi with all setups and getting MAC address for registering in Internet of things foundation on IBM Bluemix.
-    2. Using MQTT lightweight protocol to transfer the vehicle data to the Bluemix cloud using REST API.
-    3. For the transporting vehicle data to Cloudant using Node RED. Node RED is used to initialize the basic wiring and connection to registered IoT node and Cloudant service with all the credentials.
-    4. Once the Node RED configuration is done, then the model is deployed. The data captured by pi will stored in IBM Bluemix Cloudant without your hands get dirty.
-    5. The web application is used to display all the information about the vehicle to customer and also the industry will get statistical information about the machine behaviors.
-    6. Configuring the Onboard Diagnostic device and   raspberry pi with all setups and getting MAC address for registering in Internet of things foundation on IBM Bluemix.
-    7. Using MQTT lightweight protocol to transfer the vehicle data to the Bluemix cloud using REST API.
-    8. For the transporting vehicle data to Cloudant using Node RED. Node RED is used to initialize the basic wiring and connection to registered IoT node and Cloudant service with all the credentials.
-    9. Once the Node RED configuration is done, then the model is deployed. The data captured by pi will stored in IBM Bluemix Cloudant without your hands get dirty.
-    10. The web application is used to display all the information about the vehicle to customer and also the industry will get statistical information about the machine behaviors.
+   1. Configuring the Onboard Diagnostic device and   raspberry pi with all setups and getting MAC address for registering in Internet of things foundation on IBM Bluemix.
+   2. Using MQTT lightweight protocol to transfer the vehicle data to the Bluemix cloud using REST API.
+   3. For the transporting vehicle data to Cloudant using Node RED. Node RED is used to initialize the basic wiring and connection to registered IoT node and Cloudant service with all the credentials.
+   4. Once the Node RED configuration is done, then the model is deployed. The data captured by pi will stored in IBM Bluemix Cloudant without your hands get dirty.
+   5. The web application is used to display all the information about the vehicle to customer and also the industry will get statistical information about the machine behaviors.
+
 
 ### Environment 
 IBM Bluemix, OBD, Internet of Things foundation (IoT), ARM Cortex-A7, Raspberry Pi , IoT Device Configuration, Node RED, Cloudant.
