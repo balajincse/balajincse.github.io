@@ -4,8 +4,7 @@ excerpt: "Examples and code for displaying images in posts."
 header:
   teaser: "ibm-spss.jpg"
 categories: 
-  - Machine Learning
-  - IBM InternShip
+  - IBM Internship
 tags: 
   - IBM Bluemix
   - IBM SPSS
