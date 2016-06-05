@@ -3,7 +3,7 @@ title:  "Predict Stock Market using Machine "
 header:
   teaser: "stock.jpg"
 categories: 
-  - Machine Learning
+  - Machine-Learning
   - Python
 tags:
   - SciPy
