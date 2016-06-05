@@ -5,8 +5,6 @@ header:
   teaser: "front_page.png"
 categories: 
   - Deep Learning
-  - Machine Learning
-  - Python
 tags: 
   - Deep learning
   - Pyhton
