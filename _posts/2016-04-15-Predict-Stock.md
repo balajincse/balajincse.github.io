@@ -21,4 +21,4 @@ print_hi('Tom')
 Check out the for more info on how to get the most out of Balaji N. File all bugs/feature requests at [BalajiN GitHub repo][Balajin-gh]. If you have questions, you can ask me [Balaji Talk][BalajiN-talk].
 
 [Balajin-gh]:   https://github.com/balajincse
-[BalajiN-talk]: https://talk.jekyllrb.com/
+[BalajiN-talk]: mailto:balajincse@outlook.com
