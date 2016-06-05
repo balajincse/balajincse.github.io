@@ -7,56 +7,99 @@ header:
   overlay_color: "#000"
   overlay_image: Lotus-Flower-Photos.jpg
   caption: "Photo credit: [**Balaji N**](http://balajincse.github.io//about/)"
-excerpt: "Showcase my Awards"
+excerpt: "Showcase my Awards and competition submission details"
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. '
-feature_row:
-  - image_path: background.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: background.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+feature_row9:
+  - image_path: Microsoft-Windows-Phone-I-unlock-Joy-program.jpg
+    alt: "I-Unlock-Joy"
+    title: "Winner of I UNLOCK JOY (2012)"
+    excerpt: 'Microsoft Windows Phone App development competition.'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: background.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: background.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+feature_row8:
+  - image_path: maxresdefault.jpg
+    alt: "BlackBerry 10 OS App"
+    title: "Winner of BlackBerry 10 OS App (2013)"
+    excerpt: 'Developed BB10OS App & Submitted for the Challenge.'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-feature_row3:
-  - image_path: background.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+feature_row7:
+  - image_path: intel-percet.jpg
+    alt: "Intel Perceptual Computing"
+    title: "Winner of Phase 1 Intel Perceptual (2013)"
+    excerpt: 'Able to build application for Intel Perceptual computing SDK.'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row6:
+  - image_path: lenovo-all-in-one-desktop-ideacentre-horizon-27-with-2-strikers-20.jpg
+    alt: "Intel Innovation App"
+    title: "Winner of Phase 1 Intel Innovation App (2013)"
+    excerpt: 'Participated in Intel Innovation App Challenge.   '
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row5:
+  - image_path: creative-cam.png
+    alt: "Intel Real Sense SDK"
+    title: "Winner of Phase 1 & 2 Intel Real Sense SDK (2014)"
+    excerpt: 'Build app using Intel Real Sense SDK with Gestures.'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row4:
-  - image_path: background.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+  - image_path: Cloud-Azure.png
+    alt: "Microsoft Azure Challenge"
+    title: "Winner of Microsoft Azure Challenge (2014)"
+    excerpt: 'Created IaaS in Azure with some software.'
     url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row3:
+  - image_path: digit.jpeg
+    alt: "Digit Tech Star"
+    title: "Winner of Digit Tech Star (2015)"
+    excerpt: 'Top 10 Developer in India & My profile is published in Digit Magazine Nov Edition 2015.'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row2:
+  - image_path: front_page.png
+    alt: "Second Annual Data Science"
+    title: "Participated in Second Annual Data Science (2016)"
+    excerpt: 'Kaggle Deep Learning competition successfully submitted my solution in Kaggle private Score 0.116712.'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row1:
+  - image_path: kaggle-logo-transparent-300.png
+    alt: "Kaggler"
+    title: "Achieved KAGGLER Position (2016)"
+    excerpt: 'In Kaggle Data Science Competition platform achivied KAGGLER Position'
+    url: "https://www.kaggle.com/balajibi"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row1" type="left" %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="right" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row3" type="left" %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row4" type="right" %}
+
+{% include feature_row id="feature_row5" type="left" %}
+
+{% include feature_row id="feature_row6" type="right" %}
+
+{% include feature_row id="feature_row7" type="left" %}
+
+{% include feature_row id="feature_row8" type="right" %}
+
+{% include feature_row id="feature_row9" type="center" %}
