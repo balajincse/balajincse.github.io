@@ -44,8 +44,8 @@ gallery:
     alt: "placeholder image 10"
 ---
 
-##IBM India Pvt Ltd..
-
+###IBM India Pvt Ltd..
+{% include gallery caption="This is a gallery to go along with work life at IBM." %}
 ### Project Trainee Internship
 
 This letter certifies that you have completed your internship with IBM India Private Limited. This also confirms your employment in an intern capacity from 01-Oct-2015 to 30-Mar-2016 under the guidance of Nilkanth Iyer Country Lead Cloud Ecosystem.
