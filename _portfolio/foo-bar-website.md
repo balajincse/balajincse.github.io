@@ -15,12 +15,6 @@ gallery:
   - url: WP-20151203-16-05-44-Pro.jpg
     image_path: WP-20151203-16-05-44-Pro.jpg
     alt: "placeholder image 1"
-  - url: WP-20151203-16-07-48-Pro.jpg
-    image_path: WP-20151203-16-07-48-Pro.jpg
-    alt: "placeholder image 2"
-  - url: WP-20151203-16-07-08-Pro.jpg
-    image_path: WP-20151203-16-07-08-Pro.jpg
-    alt: "placeholder image 3"
 ---
 
 IBM India Pvt Ltd..
