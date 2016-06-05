@@ -3,8 +3,7 @@ title: "Real-Time Car Diagnostic with IoT and Prediction "
 header:
   teaser: "watsoniot.jpg"
 categories:
-  - IBM InternShip
-  - IBM Watson IoT
+  - IBM Internship
 tags:
   - IBM Bluemix
   - IBM Watson IoT
