@@ -32,12 +32,6 @@ Check out my profile [Kaggle][BalajiN-Kaggle].
 ### Environment
 Python, Deep Learning, Neural Network, Medical Images, MRI Images, OpenCV, DICOM, NUMPY, SCIPY, Fourier series, SOFTMAX function, ejection function, chamber views, Anaconda python.
 
-### GitHub Gist Embed
-
-An example of a Gist embed below.
-
-{% gist  %}
-
 Check out the for more info on how to get the most out of Balaji N. File all bugs/feature requests at [BalajiN GitHub repo][Balajin-gh]. If you have questions, you can ask me [Balaji Talk][BalajiN-talk].
 
 [BalajiN-Kaggle]: https://www.kaggle.com/balajibi 
