@@ -2,7 +2,7 @@
 title: "Heart Risk Predictive Analytical with IBM SPSS"
 excerpt: "Examples and code for displaying images in posts."
 header:
-  teaser: "IBM.png"
+  teaser: "421491_70035e88-fcee-454f-bcfc-7640e70ccdf2.jpg"
 categories: 
   - Machine Learning
   - IBM InternShip
