@@ -22,10 +22,6 @@ The project involved to predict the stock prices and the monitoring the market m
     2. Using appropriate plots to plotting the result.
     3. Organizing and coordinating the project development. 
 
-```python
-
-```
-
 ### Environment 
 Python, Pandas, SCIPY, NUMPY, Supervised Learning, Reinforcement Learning, Anaconda Python, MATPLOTLIB.
 
