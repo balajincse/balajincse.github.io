@@ -4,9 +4,6 @@ header:
   teaser: "self-driving-car2-512.png"
 categories:
   - Research Paper
-  - Artificial Intelligent
-  - Machine Learning
-  - Autonomous Intelligent Robotic
 tags:
   - Artificial Intelligent
   - Machine Learning
