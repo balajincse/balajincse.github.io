@@ -1,7 +1,7 @@
 ---
 title:  "Predict Stock Market using Machine "
 header:
-  teaser: "Lotus-Flower.jpg"
+  teaser: "stock.jpg"
 categories: 
   - Balaji
 tags:
@@ -9,6 +9,16 @@ tags:
 ---
 
 Using Machine learning to predict and monitoring the movements of stock, ups & Downs, capital asset price model. Python, pandas, NumPy, SciPy.
+
+The project involved to predict the stock prices and the monitoring the market movement’s using Machine Learning and Python. Throughout this project using Pandas Data Frame, NUMPY and SCIPY packages from Python library. In this Project especially using Supervised Regression learning and Reinforcement Learning. To predicting the markets ups and downs, Capital Assets Pricing model and etc.    
+
+<h3>Responsibilities:</h3> 
+•	Responsibilities to import all the need packages for the learning and creating model for predicting the market like CAPM, markets ups and Downs.
+•	Using appropriate plots to plotting the result.
+•	Organizing and coordinating the project development. 
+
+<h3>Environment:</h3> Python, Pandas, SCIPY, NUMPY, Supervised Learning, Reinforcement Learning, Anaconda Python, MATPLOTLIB.
+
 
 ```python
 def print_hi(name)
