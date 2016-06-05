@@ -3,7 +3,7 @@ title:  "Predict Stock Market using Machine "
 header:
   teaser: "Lotus-Flower.jpg"
 categories: 
-  - Jekyll
+  - Balaji
 tags:
   - SciPy, Python, Pandas, NumPy
 ---
