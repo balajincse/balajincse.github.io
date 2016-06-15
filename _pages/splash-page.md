@@ -47,7 +47,7 @@ feature_row5:
     alt: "Intel Real Sense SDK"
     title: "Winner of Phase 1 & 2 Intel Real Sense SDK (2014)"
     excerpt: 'Build app using Intel Real Sense SDK with Gestures.'
-    url: "#test-link"
+    url: "http://balajincse.github.io//post%20formats/intel-real-sense-sdk/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row4:
