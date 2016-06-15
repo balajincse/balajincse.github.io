@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Developer Digit"
 categories:
-  - Post Formats
+  - Digit
 tags:
   - image
   - Post Formats
