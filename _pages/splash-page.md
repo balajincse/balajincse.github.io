@@ -63,7 +63,7 @@ feature_row3:
     alt: "Digit Tech Star"
     title: "Winner of Digit Tech Star (2015)"
     excerpt: 'Top 10 Developer in India & My profile is published in Digit Magazine Nov Edition 2015.'
-    url: "#test-link"
+    url: "http://balajincse.github.io//digit/top-10-developer-digit/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row2:
