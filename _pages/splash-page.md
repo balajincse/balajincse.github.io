@@ -6,7 +6,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_image: Lotus-Flower-Photos.jpg
-  caption: "Photo credit: [**Balaji N**](http://balajincse.github.io/about/)"
+  caption: "Photo credit: [**Balaji N**](https://balajincse.github.io/about/)"
 excerpt: "Showcase my Awards and competition submission details"
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. '
