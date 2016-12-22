@@ -11,7 +11,7 @@ title                    : "Thoughts"
 title_separator          : "-"
 name                     : "Balaji N"
 description              : "My personal website to showcase my work"
-url                      : "http://balajincse.github.io/"# the base hostname & protocol for your site e.g. 
+url                      : "https://balajincse.github.io/"# the base hostname & protocol for your site e.g. 
 baseurl                  : # the subpath of your site, 
 gh_repo                  :
 teaser                   : "background.png" # filename of teaser fallback teaser image placed in /images/, 
