@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 header:
   image: Lotus-Flower-Sunset.jpg
-  caption: "Photo credit: [**Balaji N**](http://balajincse.github.io//about/)"
+  caption: "Photo credit: [**Balaji N**](https://balajincse.github.io//about/)"
 modified: 2016-06-05
 ---
 
