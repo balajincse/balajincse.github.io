@@ -4,9 +4,11 @@ header:
   teaser: "stock.jpg"
 categories: 
   - Play Framework
-  - IBM Bluemix
+  - Project Trainee
   - Java
+  - IBM Internship
 tags:
+  - IBM Bluemix
   - Java
   - MVC Framework
   - Cloud Migration 
@@ -14,7 +16,7 @@ tags:
   - Postgresql
 ---
 
-Using Machine learning to predict and monitoring the movements of stock, ups & Downs, capital asset price model. Python, pandas, NumPy, SciPy.
+Using Play Framework to develop a web application with backend as a Postgresql database. Following the Bluemix procedure to migrate a play web application and hosted in the IBM Bluemix Cloud.
 
 ### Project Description
 We support our partners to migrating their product into the IBM Bluemix Cloud. For my responsibility I created MVC web application using Play Framework backend as a Postgresql Database as for client requirement. Also, I migrated this third part framework application into Bluemix successfully. We presented the demo to our client and work with the client to migrating the original product into the IBM Bluemix Cloud.    
