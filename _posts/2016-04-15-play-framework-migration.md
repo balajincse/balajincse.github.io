@@ -1,21 +1,23 @@
 ---
-title:  "Predict Stock Market using Machine "
+title:  "Partners Play Framework MVC application Migration into IBM Bluemix Cloud"
 header:
   teaser: "stock.jpg"
 categories: 
-  - Machine-Learning
-  - Python
+  - Play Framework
+  - IBM Bluemix
+  - Java
 tags:
-  - SciPy
-  - Python 
-  - Pandas 
-  - NumPy
+  - Java
+  - MVC Framework
+  - Cloud Migration 
+  - Network Rotuting
+  - Postgresql
 ---
 
 Using Machine learning to predict and monitoring the movements of stock, ups & Downs, capital asset price model. Python, pandas, NumPy, SciPy.
 
 ### Project Description
-The project involved to predict the stock prices and the monitoring the market movement’s using Machine Learning and Python. Throughout this project using Pandas Data Frame, NUMPY and SCIPY packages from Python library. In this Project especially using Supervised Regression learning and Reinforcement Learning. To predicting the markets ups and downs, Capital Assets Pricing model and etc.    
+As part the Job, We support our partners to migrating their product into the IBM Bluemix Cloud. For my responsibility I created MVC web application using Play Framework backend as a Postgresql Database as for client requirement. Also, I migrated this third part framework application into Bluemix successfully. We presented the demo to our client and work with the client to migrating the original product into the IBM Bluemix Cloud.    
 
 ### Responsibilities
    1. Responsibilities to import all the need packages for the learning and creating model for predicting the market like CAPM, markets ups and Downs.
