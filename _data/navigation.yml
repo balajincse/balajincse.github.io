@@ -9,11 +9,8 @@ main:
   - title: "Random Stuff"
     url: random-stuff
 
-  - title: "Continued Stuff"
-    url: continued-stuff
-
   - title: "Awards"
     url: awards
     
     - title: "Resume"
-    url: resume-cv
+    url: resume
