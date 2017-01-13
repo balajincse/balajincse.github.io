@@ -9,8 +9,8 @@ main:
   - title: "Random Stuff"
     url: random-stuff
   
-  #- title: "Continuous Stuff"
-    #url: continuous-stuff
+  - title: "Continuous Stuff"
+    url: continuous-stuff
 
   - title: "Awards"
     url: awards
