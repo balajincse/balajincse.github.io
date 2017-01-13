@@ -145,6 +145,33 @@ The above example chooses 20 of the studies at random and runs only those. The n
 
 ### Images
 
+The following Images show the output of the analysis. You have seen two types images one slice_color is an actual heart function image with pink marks on ejection flame and another one is slice_mask blue image with a dark red spot will be the clear cut of the ejection volume.
+
+The following imgaes from 501/time00 slice with 30 images.
+
+![time00/slice00_color](images/slice00_color.png)![time00/slice00_Mask](images/slice00_mask.png)
+
+![time00/slice01_color](images/slice01_color.png)![time00/slice01_Mask](images/slice01_mask.png)
+
+![time00/slice02_color](images/slice02_color.png)![time00/slice02_Mask](images/slice02_mask.png)
+
+![time00/slice03_color](images/slice03_color.png)![time00/slice03_Mask](images/slice03_mask.png)
+
+![time00/slice04_color](images/slice04_color.png)![time00/slice04_Mask](images/slice04_mask.png)
+
+![time00/slice05_color](images/slice05_color.png)![time00/slice05_Mask](images/slice05_mask.png)
+
+![time00/slice06_color](images/slice06_color.png)![time00/slice06_Mask](images/slice06_mask.png)
+
+![time00/slice07_color](images/slice07_color.png)![time00/slice07_Mask](images/slice07_mask.png)
+
+![time00/slice08_color](images/slice08_color.png)![time00/slice08_Mask](images/slice08_mask.png)
+
+![time00/slice09_color](images/slice09_color.png)![time00/slice00_Mask](images/slice09_mask.png)
+
+![time00/slice10_color](images/slice10_color.png)![time00/slice10_Mask](images/slice10_mask.png)
+
+The Above show the slice of 501 patient time00 slice of heart EJ you will also get for 501 patient time00 slice to time29 slice and finally the ejection function value is written in output. Jason. This process is repeated for all the patients 100 to 1100 points you will get the above analysis images and value of EJ. Finally the Submission.csv will created.
 
 ### Responsibilities
    1. Responsibilities first read the .DICOM image python using PYDICOM package. The SAX .DICOM images is used for analysis
