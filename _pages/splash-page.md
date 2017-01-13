@@ -9,7 +9,7 @@ header:
   caption: "Photo credit: [**Balaji N**](https://balajincse.github.io/about/)"
 excerpt: "Showcase my Awards and competition submission details"
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. '
+  - excerpt: 'This is my prayer to thee, my lord—strike, strike at the root of penury in my heart. Give me the strength lightly to bear my joys and sorrows. Give me the strength to make my love fruitful in service. Give me the strength never to disown the poor or bend my knees before insolent might. Give me the strength to raise my mind high above daily trifles. And give me the strength to surrender my strength to thy will with love. by [Rabindranath Tagore](https://allpoetry.com/Rabindranath-Tagore)'
 feature_row9:
   - image_path: Microsoft-Windows-Phone-I-unlock-Joy-program.jpg
     alt: "I-Unlock-Joy"
