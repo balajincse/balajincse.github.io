@@ -4,11 +4,11 @@ permalink: /continuous-stuff/
 author_profile: true
 ---
 
-This is page show my current and continuous progressing in random future stuff. Here some brief will be provided what I suppose doing in my continuous learning process.
+This is page show my current and continuous progressing in random future stuff. Here some brief will be provided that show's what I suppose to be doing in my continuous learning process.
 
 ### Monitoring the behaviour of sudden unexpected death in Epilepsy
 
->I'm writing this research article to presenting the way to interact with brain for monitoring the behaviour of the brain and analysis the brain data using deep learning. Epilepsy in general word is some parts of neurons activated and deactivated. It causes the effects on the human body. This is an approach to use Medical MRI images of the brain and training the Deep neural network to learn & analyze the model to provide accurate predictions. Using tinny industrial embedded computer with the brain interface to find the activation and deactivation in the brain in real time. Using Internet of Things will brings the data from the patients and the already existing model will then trained agent to getting the model to find which parts of the brain are suddenly activation of neuron or deactivation of neuron is happing.
+>I'm writing this research article to presenting the way to interact with brain for monitoring the behaviour of the brain and analysis the brain data using deep learning. Epilepsy in general word is some parts of neurons activated and deactivated. It causes the effects on the human body. This is an approach to use Medical MRI images of the brain and training the Deep neural network to learn & analyze the model to provide accurate predictions. Using tinny industrial embedded computer with the brain interface to find the activation and deactivation in the brain in real time. Using Internet of Things will brings the data from the patients and the already existing model will then trained agent to getting the model to find which parts of the brain are suddenly activation of neuron or deactivation of neuron.
 
 ... Continuous on progressing. Estimation of Completion in Sept-2017.
 
