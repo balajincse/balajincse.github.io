@@ -15,6 +15,137 @@ tags:
 ### Project Description
 This project involved to predict the heart failure using Medical MRI Images. This is very challenge and using deep learning to analysis 1140 patient dataset to calculate the ejection function (EF percentage). The datasets contain SAX-AXIS, four chamber view, three chamber view and two chamber view of heart. The cardiac function is measure by end-systolic and end-diastolic which means the size of the chamber of heart at the beginning and middle of each heartbeat. The final result should contain all patient 1140 dataset with separate volume of chamber in ml probability is calculated for all systolic and diastolic for all patients.  
 
+### GitHub Repo
+You will clone this Repo and play with the dataset.
+* [**Kaggle-Second-Annual-Data-Science-Bowl**](https://github.com/balajincse/Kaggle-Second-Annual-Data-Science-Bowl)
+
+```bash
+$ git clone https://github.com/balajincse/Kaggle-Second-Annual-Data-Science-Bowl.git 
+``` 
+
+### Dependencies 
+This implementation was written in Python 2.7.10 and relies on the following libraries:
+
+*  [NumPy 1.9.2](http://www.numpy.org/)
+*  [SciPy 0.15.1](http://scipy.org/)
+*  [OpenCV 2 3.0.0](http://opencv.org/)
+*  [matplotlib 1.4.3](http://matplotlib.org/)
+*  [pydicom 0.9.9](http://www.pydicom.org/)
+
+```bash
+pip install pydicom
+```
+
+[end-diastolic]: https://en.wikipedia.org/wiki/End-diastolic_volume
+[end-systolic]: https://en.wikipedia.org/wiki/End-systolic_volume
+[ejection fraction]: https://en.wikipedia.org/wiki/Ejection_fraction
+[Anaconda]: https://www.continuum.io/why-anaconda
+
+### Loading datasets
+
+The competition dataset consists of over 1,000 complete cardiac MRI series. These come with a [two chamber view](http://www.vhlab.umn.edu/atlas/cardiac-mri/2-chamber-right/index.shtml), a [four chamber view](http://www.vhlab.umn.edu/atlas/cardiac-mri/4-chamber/index.shtml), and a series of longitudinal slices perpendicular to the heart's long axis known as the [short-axis stack](https://www.med-ed.virginia.edu/courses/rad/cardiacmr/Anatomy/Short.html). For this tutorial we will only be using the short-axis stack.
+
+The dataset is organized in a very regular manner. The top-level directory consists of a number of subdirectories, one for each patient. Inside each is a single folder, named "study", that in turn contains all of the available views for that MRI study. In particular, there's one two chamber view (prefixed with `2ch`), one four chamber view (prefixed with `4ch`), and a number of short-axis views comprising a short-axis stack (prefixed with `sax`). These do not follow a strict incremental scheme, but you can assume that their numerical ordering matches their spatial ordering, and that sequentially adjacent slices are equidistant throughout.
+
+The top-level method `auto_segment_all_datasets()` is responsible for running the algorithm on all of the datasets, and it looks like this:
+
+```python
+def auto_segment_all_datasets():
+    d = sys.argv[1]
+    studies = next(os.walk(os.path.join(d, "train")))[1] + next(
+        os.walk(os.path.join(d, "validate")))[1]
+
+    labels = np.loadtxt(os.path.join(d, "train.csv"), delimiter=",",
+                        skiprows=1)
+
+    label_map = {}
+    for l in labels:
+        label_map[l[0]] = (l[2], l[1])
+
+    num_samples = None
+    if len(sys.argv) > 2:
+        num_samples = int(sys.argv[2])
+        studies = random.sample(studies, num_samples)
+    if os.path.exists("output"):
+        shutil.rmtree("output")
+    os.mkdir("output")
+
+    accuracy_csv = open("accuracy.csv", "w")
+    accuracy_csv.write("Dataset,Actual EDV,Actual ESV,Predicted EDV,"
+                       "Predicted ESV\n")
+    submit_csv = open("submit.csv", "w")
+    submit_csv.write("Id,")
+    for i in range(0, 600):
+        submit_csv.write("P%d" % i)
+        if i != 599:
+            submit_csv.write(",")
+        else:
+            submit_csv.write("\n")
+
+    for s in studies:
+        if int(s) <= 500:
+            full_path = os.path.join(d, "train", s)
+        else:
+            full_path = os.path.join(d, "validate", s)
+
+        dset = Dataset(full_path, s)
+        print "Processing dataset %s..." % dset.name
+        p_edv = 0
+        p_esv = 0
+        try:
+            dset.load()
+            segment_dataset(dset)
+            if dset.edv >= 600 or dset.esv >= 600:
+                raise Exception("Prediction too large")
+            p_edv = dset.edv
+            p_esv = dset.esv
+        except Exception as e:
+            log("***ERROR***: Exception %s thrown by dataset %s" % (str(e), dset.name), 0)
+        submit_csv.write("%d_systolic," % int(dset.name))
+        for i in range(0, 600):
+            if i < p_esv:
+                submit_csv.write("0.0")
+            else:
+                submit_csv.write("1.0")
+            if i == 599:
+                submit_csv.write("\n")
+            else:
+                submit_csv.write(",")
+        submit_csv.write("%d_diastolic," % int(dset.name))
+        for i in range(0, 600):
+            if i < p_edv:
+                submit_csv.write("0.0")
+            else:
+                submit_csv.write("1.0")
+            if i == 599:
+                submit_csv.write("\n")
+            else:
+                submit_csv.write(",")
+        (edv, esv) = label_map.get(int(dset.name), (None, None))
+        if edv is not None:
+            accuracy_csv.write("%s,%f,%f,%f,%f\n" % (dset.name, edv, esv, p_edv, p_esv))
+
+    accuracy_csv.close()
+    submit_csv.close()
+```
+
+This function relies on the dataset directory given to the program on the command line, and searches it for subdirectories containing the studies. For example, a typical invocation (on the command line) might look like this, assuming you're running the script in the same directory as the top-level competition data folder:
+
+```bash
+$ python segment.py .
+```
+
+In addition, an optional argument can be supplied after the file. If supplied, this numerical argument indicates the size of a random sample to take from the dataset. At roughly 30 seconds per study, it takes several hours to run it on the full datasets; if you're just playing around with it, this is a good alternative to waiting around for the whole thing to finish:
+
+```bash
+$ python segment.py . 20
+```
+
+The above example chooses 20 of the studies at random and runs only those. The names of the studies in the output folder match those in the original dataset, so you can cross-reference them.
+
+### Images
+
+
 ### Responsibilities
    1. Responsibilities first read the .DICOM image python using PYDICOM package. The SAX .DICOM images is used for analysis
    2. First the image get auto segment for load all images from train, validate and validate, test.
